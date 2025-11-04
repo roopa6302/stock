@@ -56,11 +56,11 @@ cd stock
 npm install  
 # or  
 yarn install
- ##Running Locally
+ **Running Locally**
 npm start  
 # or  
 yarn start
- ##Building for Production
+ **Building for Production**
 npm run build  
 # or  
 yarn build  
