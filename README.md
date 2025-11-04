@@ -1,33 +1,72 @@
-# Company & Account Dashboard UI  
-An interactive front-end dashboard built with HTML, CSS and JavaScript.  
-Select a company and account, view a simulated available balance and recent transactions.
+# stockdash  
+A React web application for selecting a company & account, viewing balance and recent transactions.
 
 ## Table of Contents  
 - [Description](#description)  
 - [Features](#features)  
 - [Technologies Used](#technologies-used)  
 - [Folder Structure](#folder-structure)  
-- [How to Run Locally](#how-to-run-locally)  
-- [How to Upload to GitHub](#how-to-upload-to-github)  
-- [Screenshots / Preview](#screenshots-preview)  
-- [License](#license)  
+- [Prerequisites](#prerequisites)  
+- [Installation](#installation)  
+- **[Running Locally](#running-locally)**  
+- **[Building for Production](#building-for-production)**  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Troubleshooting & Notes](#troubleshooting-&-notes)  
+- [License](#license)
 
 ## Description  
-This project is a user-interface prototype for a dashboard where a user chooses a company and an account, then sees a generated balance and latest transactions.  
-It uses a public placeholder API to fetch company data and uses client-side JS to populate UI, generate balances and transactions.
+This project presents a dashboard built in React where a user selects a company from a dropdown, then selects an account. The app then displays a simulated “Available Balance” (in Indian Rupee format) and a table listing recent transactions (date/time, credit, balance, UTR/UPI). The project is built for learning, showcasing UI logic and API-data handling.
 
 ## Features  
-- Fetches companies from a placeholder API.  
-- Dynamically populates account select based on company selection.  
-- Loads and displays a simulated “Available Balance” in Indian Rupee format.  
-- Displays a table of recent transactions (date/time, credit, balance, UTR/UPI) dynamically generated.  
-- Responsive layout with sidebar and main content area using CSS.
+- Company dropdown populated from a public API.  
+- Account dropdown dynamically enabled and populated based on company selection.  
+- Randomly generated available balance shown in INR format.  
+- Transaction table with sample entries including date/time, credit amount, account balance, UTR and UPI.  
+- Responsive layout with sidebar navigation and main content area.
 
 ## Technologies Used  
-- HTML5  
-- CSS3  
-- JavaScript (ES6)  
-- Public API (`jsonplaceholder.typicode.com/users`) for demo data  
-- No build tools (pure static front-end)  
+- React  
+- JavaScript (ES6+)  
+- CSS (including responsive design)  
+- Public REST API: [jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)  
+- No backend required (pure front-end demo)
 
 ## Folder Structure  
+/ (project root)
+├── package.json
+├── .gitignore
+├── README.md
+├── /public
+│ └── index.html
+└── /src
+├── App.js
+├── index.js
+├── components/
+└── styles/
+
+## Prerequisites  
+- Node.js (version 14 or higher) and npm (or Yarn) installed.  
+- Internet connection (to fetch demo data from the public API).
+
+## Installation  
+```bash
+git clone https://github.com/roopa6302/stock.git  
+cd stock  
+npm install  
+# or  
+yarn install
+**Running Locally**
+npm start  
+# or  
+yarn start  
+**Building for Production**
+npm run build  
+# or  
+yarn build  
+
+
+
+
+
+
