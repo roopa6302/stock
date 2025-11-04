@@ -7,9 +7,9 @@ A React web application for selecting a company & account, viewing balance and r
 - [Technologies Used](#technologies-used)  
 - [Folder Structure](#folder-structure)  
 - [Prerequisites](#prerequisites)  
-- [Installation](#installation)  
-- **[Running Locally](#running-locally)**  
-- **[Building for Production](#building-for-production)**  
+- [Installation](#installation) 
+- [Running Locally](#running-locally)
+- [Building for Production](#building-for-production)  
 - [Usage](#usage)  
 - [Screenshots](#screenshots)  
 - [Troubleshooting & Notes](#troubleshooting-&-notes)  
@@ -56,11 +56,11 @@ cd stock
 npm install  
 # or  
 yarn install
- **Running Locally**
+ ##Running Locally
 npm start  
 # or  
 yarn start
- **Building for Production**
+ ##Building for Production
 npm run build  
 # or  
 yarn build  
